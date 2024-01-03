@@ -1,0 +1,21 @@
+{
+  "name": "users-app",
+  "version": "1.0.0",
+  "description": "Application that shows list of users",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=jsdom",
+    "start": "node index.js"
+  },
+  "author": "Madhav Pokhrel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "jest": "^27.0.4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.13.0"
+  }
+}

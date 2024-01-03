@@ -1,0 +1,46 @@
+$backgroundColor : #e7e6e6;
+$textColor : rgb(75, 74, 74);
+
+
+body{
+    background: $backgroundColor;
+}
+
+.users_list{
+
+    list-style-type: none;
+   
+
+
+    .user-content {
+        color:$textColor;
+           font-size: 24px;
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;
+     
+            img{
+                border-radius: 24px;
+                margin-right: 34px;
+             }
+            
+        button{
+            padding: 10px 30px;
+            margin-left: 35px;
+        }
+    
+    }
+   
+    .user-details{
+        
+        text-align: center;        
+        margin-top: -15px;
+
+    }
+    
+}
+
+.hidden{
+    display: none;
+}

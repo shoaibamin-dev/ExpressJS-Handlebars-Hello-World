@@ -1,0 +1,41 @@
+body {
+  background: #e7e6e6;
+}
+
+.users_list {
+  list-style-type: none;
+}
+
+.users_list .user-content {
+  color: #4b4a4a;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.users_list .user-content img {
+  border-radius: 24px;
+  margin-right: 34px;
+}
+
+.users_list .user-content button {
+  padding: 10px 30px;
+  margin-left: 35px;
+}
+
+.users_list .user-details {
+  text-align: center;
+  margin-top: -15px;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
